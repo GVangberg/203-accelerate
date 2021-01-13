@@ -142,3 +142,22 @@ article.case-study-archive h5 {
     display: flex;
     justify-content: space-between;
 }
+
+/* Contact Us page */
+
+/* button */ 
+.nf-field-element {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nf-field-4 {
+    color: white;
+    background: #45ac9d;
+    width: 33%;
+}
+
+/*width of form*/
+.contact #primary {
+    width: 45%;
+}
