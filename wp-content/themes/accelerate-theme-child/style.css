@@ -161,3 +161,84 @@ article.case-study-archive h5 {
 .contact #primary {
     width: 45%;
 }
+
+/* About page */
+
+#about-content {
+    color: white;
+}
+
+section.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.our-services {
+    width: 80%;
+}
+
+/* top */
+
+div.services-content h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.services-content h6 {
+    margin: 0;
+    text-align: center;
+}
+
+div.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* middle */
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#individual-service:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#about-image {
+    width: 30%;
+}
+
+#about-sidebar {
+   width: 70%;
+}
+
+/* bottom */
+
+.line {
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.interested {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.interested h4 {
+    margin: 0;
+    padding: 10px 50px 10px 10px;
+    vertical-align: middle;
+}

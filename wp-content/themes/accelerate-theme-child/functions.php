@@ -31,17 +31,36 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
+// create an about custom post type
+    register_post_type( 'about',
+        array(
+            'labels' => array(
+            'name' => __( 'About' ),
+            'singular_name' => __( 'Service' )
+        ),
+        'public' => true,
+        'rewrite' => array( 'slug' => 'about' ),
+        )
+    );
 }
 
-// Hook this custom post typle function into the theme
+
+// Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
 
 /* Inserting a class for a specific page */ 
 
 function accelerate_child_body_classes( $classes ) {
-    if ( is_page( 'contact-us' ) ) {
+    if ( is_page( 'contact-us') ) {
       $classes[] = 'contact';
     }
+
+    if ( is_page( 'about') ) {
+        $classes[] = 'about';
+      }
+      
     return $classes;
 }
+
 add_filter( 'body_class','accelerate_child_body_classes' );

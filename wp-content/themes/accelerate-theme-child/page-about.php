@@ -15,23 +15,20 @@ get_header(); ?>
 </section><!-- #primary -->
 
 <section class="our-services">
-	<div class=our-services>
+<div class=our-services>
 	<div class="services-content">
 		<h4>Our services</h4><br>
 		<h6><?php the_content(); ?></h6>
 	</div>
 
 	<div class="services">
-
 	  	<?php query_posts('posts_per_page=4&post_type=about'); ?>
 
 		<?php while ( have_posts() ) : the_post();
 			$service_icon = get_field('service_icon');
 			$size = "medium";
 		?>
-  	</div>
-
-  	<div class=about-wrapper>
+  	
 		<article id="individual-service">
         	<figure id="about-image">
          		<?php if($service_icon){ 
@@ -46,7 +43,7 @@ get_header(); ?>
     	</article>
 
   		<?php wp_reset_query(); //resets the altered query back to the original ?>
-    </div>
+	</div>
 
   	<div>
     	<span class="line"></span>
@@ -63,6 +60,7 @@ get_header(); ?>
 			<a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a>
 		</div>
 	</div>
+</div>
 </section>
 
 <?php get_footer(); ?>
