@@ -10,7 +10,7 @@
 get_header(); ?>
 <section class="home-page">
    	<div id="about-content">
-    	<h3>Accelerate is a strategy and marketing agency <br> located in the heart of NYC. Our goal is to build <br> businesses by making our clients visible and <br> making their customers smile.</h3>
+    	<h2>Accelerate is a strategy and marketing agency <br> located in the heart of NYC. Our goal is to build <br> businesses by making our clients visible and <br> making their customers smile.</h2>
    	</div>
 </section><!-- #primary -->
 
@@ -39,8 +39,8 @@ get_header(); ?>
 				  <h1><?php the_title(); ?></a></h1>
 				  <h6><?php the_content(); ?></h6>
 			</aside>
-         	<?php endwhile; //end of the loop ?>
     	</article>
+		<?php endwhile; //end of the loop ?>
 
   		<?php wp_reset_query(); //resets the altered query back to the original ?>
 	</div>
