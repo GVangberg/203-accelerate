@@ -175,7 +175,8 @@ section.our-services {
 }
 
 div.our-services {
-    width: 80%;
+    width: 90%;
+    max-width: 960px;
 }
 
 /* top */
@@ -184,6 +185,7 @@ div.services-content h4 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 div.services-content h6 {
@@ -195,7 +197,7 @@ div.services-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 
 /* middle */
@@ -247,4 +249,30 @@ div.services-content {
     margin: 0;
     padding: 10px 50px 10px 10px;
     vertical-align: middle;
+}
+
+/* 404 page */
+
+.not-found {
+    background: url(img/ocean.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: 0 -100px;
+}
+
+.not-found h2 {
+    color: white;
+    margin: 10% 0 0 10%;
+}
+
+.not-found h4 {
+    color: white;
+    margin: 1% 0 0 15%;
+}
+
+.not-found h6 {
+    color: white;
+    margin: 0 0 0 15%;
 }
