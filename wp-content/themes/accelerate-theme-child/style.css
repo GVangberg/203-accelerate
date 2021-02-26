@@ -259,20 +259,22 @@ div.services-content {
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
-    background-position: 0 -100px;
+    background-position: 0 -75px;
 }
 
 .not-found h2 {
     color: white;
     margin: 10% 0 0 10%;
+    font-family: 'Londrina Solid';
+    font-size: 40px;
+    font-weight: 400;
+
 }
 
 .not-found h4 {
     color: white;
     margin: 1% 0 0 15%;
-}
-
-.not-found h6 {
-    color: white;
-    margin: 0 0 0 15%;
+    font-family: 'Londrina Solid';
+    font-weight: 300;
+    font-size: larger;
 }

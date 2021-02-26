@@ -14,7 +14,7 @@ get_header(); ?>
             <div class=not-found-text>
                 <h2>Oh man, you seem a little lost...</h2>
                 <h4>Wanna go explore some other territory?</h4>
-                <h6>Check out our <a href="<?php echo site_url('/blog/') ?>"><span style="color:#45AB9D">blog</span></a>  or some of our featured <a href="<?php echo site_url('/case-studies/') ?>"><span style="color:#45AB9D">work</span>.</a><h6>
+                <h4>Check out our <a href="<?php echo site_url('/blog/') ?>"><span style="color:black">blog</span></a>  or some of our featured <a href="<?php echo site_url('/case-studies/') ?>"><span style="color:black">work</span>.</a><h4>
             </div>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
